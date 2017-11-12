@@ -1,0 +1,130 @@
+.box-set{
+	width:650px;
+	background:grey;
+	margin-left:25px;
+	position:relative;
+	float:left;
+}
+.port{
+	width:150px;
+	float:left;
+}
+
+.bottom{
+	position:relative;
+	bottom:50px;
+	font-color:white;
+	background-width:100%;
+	background-color:#4aaaa5;
+	;
+}
+.container{
+	width:100%
+	border:1px #cccccc;
+	background-color:white;
+	overflow:auto;
+}
+.container2{
+		width:100%;
+		border:#dddddd;
+		background-color:;
+    	bottom: 0;
+    	overflow:auto;
+}
+.info{
+	height:400px;
+	width:600px;
+	background:grey;
+	position:relative;
+	right:25px;
+	float:right;
+	top:50px;
+}
+div.menu{
+	float:right;
+}
+a.menu{
+	font-color:#777777;
+	font-family:Arial;
+}
+div{
+	padding:10px;
+}
+.content{
+	width:960px;
+	margin:auto;
+	position:absolute;
+	overflow:auto;
+}
+.about{
+	width:650px;
+	clear:left;
+	overflow:auto;
+}
+.contact{
+	width:650px;
+	clear:left;
+	overflow:auto;
+}
+.portfolio{
+	width:650px;
+	clear:left;
+	overflow:auto;
+} 
+.sidebar{
+	width:270px;
+	float:right;
+	clear:left;
+	overflow:auto;
+}	
+.icons{
+	clear:right;
+}
+input{
+	clear:left;
+}
+header{
+	padding:1em;
+	text-align:center;
+	overflow:auto;
+	color:#ffffff;
+}
+footer{
+  display: block;
+  padding:1em;
+  position:absolute;
+  bottom:0px;
+  text-align: center;
+  background: #ebebeb;
+}
+div{
+}
+body{
+	background-image:url('../../assets/images/6.png');
+	background-size: 1500px, 1500px;
+	overflow:auto;
+}	
+h1{color:white; 
+	font: Arial;
+	background-color:#4aaaa5;
+	font-color:white;
+	font-size:25px;
+	font-family:Georgia;
+	padding:1em;
+	float:left;
+}
+
+h2{color:#4aaaa5; 
+	font-size:25px;
+	font-family:Georgia;
+	clear:right;
+}
+
+	
+}
+p{
+	padding:10px;
+	color:#777777;
+	font-family:Arial;
+	float:right;
+}
