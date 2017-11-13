@@ -83,6 +83,11 @@ div{
 }
 input{
 	clear:left;
+	width:100%;
+}
+textarea{
+	width:100%;
+}
 }
 header{
 	padding:1em;
