@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -8,57 +10,64 @@
 	<title>Allen Shin's Website</title>
 </head>
 <body>
-	<div class="container">
-		<header>
-			<h1>Allen Shin</h1>
-				<div class="menu">
-   				<a href="./index.html">About</a>
-   				<a href="./contact.html">Contact</a>
-   				<a href="./portfolio.html">Portfolio</a>
-   				</div>	
-   		</header>
-	</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 		<a class="navbar-brand" href="#">Allen Shin</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    			<div class="navbar-nav">
+      				<a class="nav-item nav-link active" href="./index.html">About<span class="sr-only">(current)</span></a>
+      				<a class="nav-item nav-link" href="./contact.html">Contact</a>
+      				<a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+    			</div>
+  			</div>
+	</nav>
 
-    <div class= content>
-	<div class=sidebar>
-		<h2>Connect with Me</h2>
-		<br>
-		<div class=icons>
-			
-
-			<a href="https://www.linkedin.com/in/allen-shin-84234069/">
-				<img src= ./assets/images/linkedin-logo-copy.png
-				style="width:60px;height:60px;border:0">
-			</a>
-
-			
-			<a href="https://github.com/geeuho">
-				<img src= ./assets/images/GitHub-Mark.png
-				style="width:60px;height:60px;border:0">
-			</a>
-
-			<a href="mailto:geeuho@gmail.com">
-				<img src= ./assets/images/Gmail_Icon.png
-				style="width:60px;height:60px;border:0">
-			</a>
-
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="page-header">
+					<h1>About me</h1>
+   				</div>
+   			</div>
+			<div class="col-sm-4">
+				<h2 id="connect">Connect With Me</h2>
+   				<ul class="nav nav-pills">
+   
+  					<li class="nav-item">
+    					<a class="nav-link" href="https://www.linkedin.com/in/allen-shin-84234069/">
+    						<img src= ./assets/images/linkedin-logo-copy.png style="width:60px;height:60px;border:0">
+    					</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="https://github.com/geeuho">
+    						<img src= ./assets/images/GitHub-Mark.png style="width:60px;height:60px;border:0"></a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="mailto:geeuho@gmail.com"> 
+    						<img src= ./assets/images/Gmail_Icon.png style="width:60px;height:60px;border:0"></a>
+  					</li>
+  				</ul>
+  				</div>
+				
+   		</div>	
+   		<div class="row">
+   			<div class="col-sm-8">
+   				<div class="media">
+  					<img class="img-fluid" src="./assets/images/img_2926.jpg"; height=200 px; width = 200 px alt="Responsive Image">
+  					<div class="media-body">
+    					<p>Hi! My name is Allen and I am an aspiring web developer. I am a UCSD graduate student, with a B.S. in General Biology. However, I felt like Biology did not access my best intellectual qualities, which excels more at things like math and logic problems.I am currently attending a Coding Boot Camp at UC Berekely extension, so that I can hone my coding skills, which I hope will turn into a job in the computer science field. I believe that in this field I will be able to excel at creating and fixing code, with my knack for logical issues. I also hope to create fun and applicable programs for users that are trending with the latest demands in tech.</p>
+  					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-		<div class=about>	
-			<h2 class=>About Me</h2>
-			<div>
-			<img src='./assets/images/img_2926.jpg'; height= 200 px; width = 200 px>
-			<br>
-			<p>Hi! My name is Allen and I am an aspiring web developer. I am a UCSD graduate student, with a B.S. in General Biology. However, I felt like Biology did not access my best intellectual qualities, which excels more at things like math and logic problems.I am currently attending a Coding Boot Camp at UC Berekely extension, so that I can hone my coding skills, which I hope will turn into a job in the computer science field. I believe that in this field I will be able to excel at creating and fixing code, with my knack for logical issues. I also hope to create fun and applicable programs for users that are trending with the latest demands in tech. </p>
-			
-		</div>
-	
-			
-	</div>
-</div>
+
 </body>
-		<footer>
-			CopyRight @ 2017 Allen Shin
-		</footer>
 
+
+<div class="container2">
+	<footer>
+	CopyRight @ 2017 Allen Shin
+	</footer>
+</div>
 </html>
